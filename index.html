@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widt=device-width, initial-scale=1.0">
+        <title>S.O.P.A</title>
+        <!-- Style -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#sobre">Sobre o projeto</a></li>
+                    <li><a href="#ongs">ONGs</a></li>
+                    <li><a href="#cadastro">Cadastro</a></li>
+                    <li><a href="#quem">Quem somos</a></li>
+                    <li><a href="#contato">contato</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <section id="banner" class="banner">
+            <img src="img/04.jpeg">
+        </section>
+        <section id="sobre" class="flexivel">
+            <article class="borda0" data-anima="esquerda">
+                Sobre o Projeto
+                <p>O Sistema de ONG's Para Amigos (S.O.P.A) é um projeto com o intuito de 
+                    ajudar a população ter facil acesso as ONG's. 
+                </p>
+                <p></p>
+            </article>
+        </section>
+        <section id="ongs" class="flexivel">
+            <article class="borda0" data-anima="centro">
+                <h1>ONGs</h1></html>
+                <br>
+                <p><a href="pagina_ongs_animais.html">ONG's de Animais</a> </p>
+                <br>
+                <p><a href="pagina_ongs_educa_e_cult.html">ONG's de Educação e Cultura</a> </p>
+                <br>
+                <p><a href="pagina_ongs_saude.html">ONG's de Arte</a></p>
+                <br>
+                <p><a href="">ONG's de Crianças</a></p>
+            </article>
+        </section>
+        <section id="cadastro" class="flexivel">
+            <article class="borda0" data-anima="esquerda">
+                cadastro
+                <!--Formulario do cadastro-->
+                <form name="f_cadastro" action="#" method="POST">  
+                    <!--nome-->
+                    <label class="quebra espaco_t">Nome:</label>
+                    <input type="text" name="nome" maxlength="30" size="30" required>
+                    <!--email-->
+                    <label class="quebra espaco_t">e-mail</label>
+                    <input type="email" name="email" size="30" required >
+                    <label class="quebra espaco_t">Senha</label>
+                    <input  type="password" name="senha" maxlength="10" size="20" required>
+                    <!--sexo-->
+                    <label class="quebra espaco" >Sexo</label>
+                    <input type="radio" name="sexo" value=" feminino">Feminino
+                    <input type="radio" name="sexo" value="masculino">Masculino
+                    <input type="radio" name="sexo" value="prefere nao se indentificar">prefere nao se indentificar
+                    <!--telefone-->
+                    <label class="quebra espaco_t">telefone</label>
+                    <input type=" tel" name="telefone" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(xx)9xxxx-xxx">
+                    <div id="dv_btns">
+                        <input class="espaco_t" type="submit" name="f_btn_enviar" value="enviar">
+                        <input class=" espaco_t" type="reset" name="f_btn_limpar" value="limpar">
+                    </div>
+                </form>
+            </article>
+        </section>
+        <section id="quem" class="flexivel">
+            <article class="borda0" data-anima="centro">
+                Quem somos?
+                <p>Somos duas alunas do Instituto Federal de Educação,Ciência e tecnologia de São Paulo do 
+                Campos Campinas.</p>
+                <p></p>
+                <p>Cursando no terceiro ano do Ensino Medio entegrado ao curso tecnico de Informatica.</p>
+               <p> Onde juntas desenvolvemos este site para ajudar a facilitar o acesso da população
+                   com as ONG's
+                </p>
+            </article>
+        </section>
+        <section id="contato" class="flexivel">
+            <article class="borda0" data-anima="direita">
+                contato
+                <p>Caso queira entrar em contato com nos:</p>
+                <p class="espaco_t">email: ongs.projetoiii@gmail.com </p>
+                <p>brenda.ziviani@aluno.ifsp.edu.br</p>
+                <p>rodrigues.mayara@aluno.ifsp.edu.br</p>
+                <p> </p>
+                <p class="espaco_t">Nossa rede social:</p>
+                <p>Instagram
+                <a href="https://instagram.com/_projeto_sopa_?utm_medium=copy_link">S.O.P.A</a></p>
+
+            </article>
+        </section>
+
+        <footer>
+        </footer>
+        <!--JavaScripts-->
+        <script type="text/javascript" src="javascript/scripts.js"> </script>
+    </body>
+</html>
